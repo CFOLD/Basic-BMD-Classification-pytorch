@@ -10,13 +10,13 @@
 ## 학습 데이터셋 구성
 1. 학습 데이터셋은 images 폴더와 label.txt로 구성됩니다.
 ```
-train -- images  
+train - images  
          label.txt
 ```
 2. images 폴더에는 학습할 뼈 단위의 이미지 파일이 위치해야 합니다.
 3. label.txt는 파일명,클래스 형식으로 작성됩니다. 예를 들어서 파일명이 00001.png, 클래스 0 / 00002.png, 클래스 1이면
 ```
-   label.txt -- 00001.png,0  
+   label.txt - 00001.png,0  
                 00002.png,1
 ```
    과 같은 형태로 작성되어야 합니다.
@@ -24,6 +24,9 @@ train -- images
 
 ## 테스트 데이터셋 구성
 1. 테스트 데이터셋은 Unknown 폴더로 이루어집니다. (폴더명 무관)
+```
+test - Unknown
+```
 2. Unknown 폴더에는 테스트할 뼈 단위의 이미지 파일이 위치해야 합니다.
 
 
